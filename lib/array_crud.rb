@@ -28,15 +28,15 @@ end
 
 def retrieve_element_from_index(array, index_number)
   phrase = ["wow", "I", "am", "really", "learning", "arrays!"]
-  phrase.index[2]
+  phrase.index(2)
 end
 
 def retrieve_first_element_from_array(array)
   phrase = ["wow", "I", "am", "really", "learning", "arrays!"]
-  phrase.index[0]
+  phrase.index(0)
 end
 
 def retrieve_last_element_from_array(array)
   phrase = ["wow", "I", "am", "really", "learning", "arrays!"]
-  phrase.index[5]
+  phrase.index(5)
 end
