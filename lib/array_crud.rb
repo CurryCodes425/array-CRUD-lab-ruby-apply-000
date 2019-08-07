@@ -7,8 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  friends = ["Angie", "Casey", "Onyx", "Charlyne"]
-  friends << "Jimmy!"
+  phrase =["I", "love", "learning", "about"]
+  phrase << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
