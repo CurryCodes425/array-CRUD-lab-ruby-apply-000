@@ -7,12 +7,13 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  phrase =["I", "love", "learning", "about"]
+  phrase = ["I", "love", "learning", "about"]
   phrase << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-
+  phrase = ["I", "love", "learning", "about", "arrays!"]
+  phrase[0] = "Wow, "
 end
 
 def remove_element_from_end_of_array(array)
